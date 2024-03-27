@@ -1,0 +1,67 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+}
+
+.bg-container {
+  background: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  width: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.joe {
+  background-color: #fddddb;
+  margin: 25px;
+  padding: 25;
+  height: 150px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: larger;
+}
+.jonas {
+  background-color: #fddddb;
+  margin: 25px;
+  height: 150px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: larger;
+}
+.heading {
+  margin: 15px;
+  color: #ffffff;
+}
+.btn {
+  color: #dd1264;
+  border-width: 0;
+  border-color: #ffffff;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 220px;
+}
+.joe-container {
+  padding-left: 50px;
+}
+.jonas-container {
+  padding-right: 50px;
+}
